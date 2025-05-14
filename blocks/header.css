@@ -1,0 +1,28 @@
+.header {
+  background-color: #fff;
+  font-size: 16px;
+}
+.header .navbar {
+  display: flex;
+  align-items: center;
+  gap: 303px;
+  padding: 20px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.header .button {
+  position: fixed;
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid;
+}
+.header .logo img {
+  width: 160px;
+  height: 123px;
+}
+.header .logo {
+  margin-left: 98px;
+}/*# sourceMappingURL=header.css.map */

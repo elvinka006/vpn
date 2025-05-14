@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  background-color: #ffff;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #4F5665;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px; 
+  margin-right: auto; 
+}
+
+.auth-links {
+  display: flex;
+  align-items: center;
+  gap: 30px; 
+}
+
+.logo {
+  width: 148px;
+  height: 36px;
+  margin-right: 158px; 
+}
+
+.navbar span a {
+  color: #0B132A;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-content {
+  max-width: 550px;
+}
+
+.text-content h1 {
+  font-family: "Rubik-Medium", Helvetica;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #4e5664;
+  margin-bottom: 30px;
+}
+
+.main-content img {
+  width: 611px;
+  height: 382px;
+}
+
+.navbar .button {
+  width: 150px;
+  height: 45px;
+  border-radius: 50px;
+  border: 1px solid;
+  border-color: #f53855;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .button a {
+  font-size: 16px;
+  color: #f53855;
+  text-align: center;
+}
+
+.button2 {
+  width: 250px;
+  height: 60px;
+  background-color: #f53737;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px; /* Расстояние между карточками */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.card h1 {
+  font-size: 36px;
+  margin: 10px 0;
+  color: #0B132A;
+}
+
+.card p {
+  font-size: 16px;
+  color: #4F5665;
+}
+
